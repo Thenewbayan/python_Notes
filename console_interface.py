@@ -8,7 +8,7 @@ class ConsoleInterface:
     def run(self):
         while True:
             self.print_menu()
-            command = input("Введите номер команды: ")
+            command = input("Введите номер  команды: ")
             if command == "1":
                 self.add_note()
             elif command == "2":
